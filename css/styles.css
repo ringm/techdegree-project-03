@@ -1,3 +1,36 @@
-label {
+/*------------------------------------*\
+  #BASE
+\*------------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+fieldset[name="contact-info"] {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  border-radius: 5px;
+  background-color: #efefef;
+  border: 0;
+}
+
+.paragraph {
   display: block;
 }

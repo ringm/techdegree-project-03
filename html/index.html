@@ -21,7 +21,7 @@
       <form action="index.html" method="post">
 
           <fieldset name="contact-info">
-            <legend>Contact information</legend>
+            <legend class="header">Contact information</legend>
 
             <label for="name">Full Name</label>
             <input type="text" id="name" name="user_name">
@@ -53,19 +53,19 @@
         </fieldset>
 
         <fieldset name="newsletter">
-          <legend>Newsletter</legend>
-          <label>Select the newsletters you would like to recieve:</label>
+          <legend class="header">Newsletter</legend>
+          <label class="paragraph">Select the newsletters you would like to recieve:</label>
 
           <input id="htmlnews" type="checkbox" name="newsletter_news" value="html_news"><label for="htmlnews">HTML News</label><br>
           <input id="cssnews" type="checkbox" name="newsletter_news" value="css_news"><label for="cssnews">CSS News</label><br>
           <input id="jsnews" type="checkbox" name="newsletter_news" value="js_news"><label for="jsnews">Javascript News</label>
 
-          <label>Newsletter format:</label>
+          <label class="paragraph">Newsletter format:</label>
 
           <input id="html_format" type="radio" name="newsletter_format" value="html_format"><label for="html_format">HTML</label><br>
           <input id="plain_format" type="radio" name="newsletter_format" value="plain_format"><label for="plain_format">Plain text</label>
 
-          <label>Other topics you'd like to hear about:</label>
+          <label class="paragraph">Other topics you'd like to hear about:</label>
           <textarea id="other" name="other_topics"></textarea>
 
           <button type="submit" name="button">Sign Up</button>
