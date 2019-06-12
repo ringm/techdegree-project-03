@@ -162,17 +162,12 @@ textarea:focus {
 
 @media (min-width: 768px) {
 
-  fieldset[name="contact-info"] {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .flex {
     display: flex;
   }
 
   .flex label {
-    flex-basis: 30%;
+    flex-basis: 25%;
   }
 
   input, select {
