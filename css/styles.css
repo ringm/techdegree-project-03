@@ -165,7 +165,8 @@ textarea:focus,
 select:focus {
   outline: none;
   border: 2px solid #46698b;
-  transition: 0.2s;
+  transition: 0.3s;
+  background-color: #fff;
 }
 
 /*------------------------------------*\
